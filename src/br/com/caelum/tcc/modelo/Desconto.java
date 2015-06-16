@@ -1,9 +1,9 @@
 package br.com.caelum.tcc.modelo;
 
+import java.util.Date;
+
 public class Desconto {
-	private long id;
-	private String Titulo;
-	private String Autor;
-	private String Descricao;
-	private double preco;
+	private int id;
+	private Date validade;
+	private double desconto;
 }
